@@ -21,18 +21,5 @@
         "/share/pkgconfig",
         "*.la",
         "*.a"
-    ],
-    "modules" : [
-        {
-            "name" : "melodia-launcher",
-            "builddir" : true,
-            "buildsystem" : "meson",
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "file:///home/virt/Downloads/custom-linux-build/Melodia-Launcher"
-                }
-            ]
-        }
     ]
 }

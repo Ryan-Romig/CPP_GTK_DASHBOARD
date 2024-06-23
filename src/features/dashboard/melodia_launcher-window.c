@@ -1,5 +1,5 @@
 
-#include "../app/melodia_launcher-application.h"
+#include "../../app/melodia_launcher-application.h"
 #include "melodia_launcher-window.h"
 
 struct _MelodiaLauncherWindow

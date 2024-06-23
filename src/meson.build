@@ -1,7 +1,6 @@
 melodia_launcher_sources = [
   'main.c',
-  'dashboard/melodia_launcher-window.c',
-  'test/test.c',
+  'features/dashboard/melodia_launcher-window.c',
   'app/melodia_launcher-application.c',
 ]
 
