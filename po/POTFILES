@@ -1,0 +1,7 @@
+data/com.melodia.launcher.desktop.in
+data/com.melodia.launcher.appdata.xml.in
+data/com.melodia.launcher.gschema.xml
+src/dashboard/melodia_launcher-window.ui
+src/main.c
+src/dashboard/melodia_launcher-window.c
+

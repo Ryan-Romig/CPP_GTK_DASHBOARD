@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=melodia-launcher
+Exec=melodia-launcher
+Icon=com.melodia.launcher
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
