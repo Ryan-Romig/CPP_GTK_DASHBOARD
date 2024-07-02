@@ -8,7 +8,7 @@
     </child>
     <child>
       <object class="GtkButton" id="button">
-        <property name="label">Click me!</property>
+        <property name="label">Open Spotify</property>
       </object>
     </child>
   </template>

@@ -10,7 +10,11 @@ G_DEFINE_TYPE(DashboardPage, dashboard_page, GTK_TYPE_BOX)
 
 void handle_button_click(GtkButton *button, gpointer user_data)
 {
-    g_print("Button clicked\n");
+    // Open Firefox
+    #include <stdlib.h>
+
+    // Open Chrome
+    system("/opt/google/chrome/google-chrome --profile-directory=Default --app-id=pjibgclleladliembfgfagdaldikeohf");
 }
 static void dashboard_page_class_init(DashboardPageClass* klass)
 {
