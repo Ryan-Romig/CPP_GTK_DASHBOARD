@@ -14,7 +14,7 @@ void handle_button_click(GtkButton *button, gpointer user_data)
     #include <stdlib.h>
 
     // Open Chrome
-    system("/opt/google/chrome/google-chrome --profile-directory=Default --app-id=pjibgclleladliembfgfagdaldikeohf");
+    system("/opt/google/chrome/google-chrome --start-maximized --start-fullscreen --kiosk --profile-directory=Default --app-id=pjibgclleladliembfgfagdaldikeohf" );
 }
 static void dashboard_page_class_init(DashboardPageClass* klass)
 {
