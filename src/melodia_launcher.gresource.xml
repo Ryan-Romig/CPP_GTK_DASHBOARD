@@ -2,5 +2,6 @@
 <gresources>
   <gresource prefix="/com/melodia/launcher">
     <file>ui/main-window.ui</file>
+    <file>ui/dashboard.ui</file>
   </gresource>
 </gresources>

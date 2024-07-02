@@ -1,6 +1,6 @@
 
 #include "melodia_launcher-application.h"
-#include "features/dashboard/melodia_launcher-window.h"
+#include "window/melodia_launcher-window.h"
 
 struct _MelodiaLauncherApplication
 {

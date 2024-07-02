@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="DashboardPage" parent="GtkBox">
+    <child>
+      <object class="GtkLabel" id="label">
+        <property name="label">Hello, world!</property>
+      </object>
+    </child>
+    <child>
+      <object class="GtkButton" id="button">
+        <property name="label">Click me!</property>
+      </object>
+    </child>
+  </template>
+</interface>
