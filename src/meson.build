@@ -2,6 +2,7 @@ melodia_launcher_sources = [
   'main.c',
   'features/dashboard/melodia_launcher-window.c',
   'app/melodia_launcher-application.c',
+  'features/stack_manager/stack_manager.c',
 ]
 
 melodia_launcher_deps = [
