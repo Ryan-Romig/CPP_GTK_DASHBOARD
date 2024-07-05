@@ -1,5 +1,4 @@
-#LauncherButton {
-    background-color: #007ACC;
-    color: white;
-    font-size: 20px;
+.launcher-button {
+    color: black;
+
 }
