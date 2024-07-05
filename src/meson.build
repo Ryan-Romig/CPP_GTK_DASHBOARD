@@ -4,6 +4,7 @@ melodia_launcher_sources = [
   'app/melodia_launcher-application.c',
   'features/stack_manager/stack_manager.c',
   'features/dashboard/dashboard.c',
+  'components/buttons/launcher_button/launcher_button.c',
 ]
 
 melodia_launcher_deps = [

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/com/melodia/launcher">
-    <file>ui/main-window.ui</file>
-    <file>ui/dashboard.ui</file>
+    <file>ui/pages/main_window.ui</file>
+    <file>ui/pages/dashboard.ui</file>
+    <file>ui/components/launcher_button.ui</file>
+    <file>ui/styles/launcher_button.css</file>
   </gresource>
+  
 </gresources>
