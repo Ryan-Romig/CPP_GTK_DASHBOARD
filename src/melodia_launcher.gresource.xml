@@ -5,6 +5,7 @@
     <file>ui/pages/dashboard.ui</file>
     <file>ui/components/launcher_button.ui</file>
     <file>ui/styles/launcher_button.css</file>
+    <file>ui/styles/dashboard.css</file>
   </gresource>
   
 </gresources>

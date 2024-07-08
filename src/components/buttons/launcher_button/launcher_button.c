@@ -15,9 +15,15 @@ static void launcher_button_init(LauncherButton* self)
 {
 
     gtk_widget_init_template(GTK_WIDGET(self));
-     GtkCssProvider *provider = gtk_css_provider_new();
+    GtkCssProvider* provider = gtk_css_provider_new();
     gtk_css_provider_load_from_resource(provider, "/com/melodia/launcher/ui/styles/launcher_button.css");
-    gtk_style_context_add_provider_for_display(gdk_display_get_default(),
-                                               GTK_STYLE_PROVIDER(provider),
-                                               GTK_STYLE_PROVIDER_PRIORITY_USER);
+    gtk_style_context_add_provider_for_display(
+        gdk_display_get_default(), GTK_STYLE_PROVIDER(provider), GTK_STYLE_PROVIDER_PRIORITY_USER);
+
+    gtk_widget_set_halign(self, GTK_ALIGN_CENTER);
+    gtk_widget_set_valign(self, GTK_ALIGN_CENTER);
+
+    //set the height and width of the button
+    gtk_widget_set_size_request(GTK_WIDGET(self), 200, 200);
+    
 }

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <template class="DashboardPage" parent="GtkBox">
-
+    <style>
+      <class name="dashboard-page"/>
+    </style>
   </template>
 </interface>
