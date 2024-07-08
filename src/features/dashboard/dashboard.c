@@ -38,11 +38,27 @@ static void dashboard_page_init(DashboardPage* self)
     //attach click event function to button click event
     g_signal_connect(launcher_button, "clicked", G_CALLBACK(handle_button_click), NULL);
 
+
+    //create a new launcher button
+    LauncherButton* launcher_button2 = g_object_new(LAUNCHER_BUTTON_TYPE, NULL);
+    //set the text of the button
+    gtk_button_set_label(GTK_BUTTON(launcher_button2), "Spotify2");
+    //attach click event function to button click event
+    g_signal_connect(launcher_button2, "clicked", G_CALLBACK(handle_button_click), NULL);
+
     //set to expand to fill the parent container
     gtk_widget_set_hexpand(self, TRUE);
     gtk_widget_set_vexpand(self, TRUE);
 
-    
+
+
+    //set the spacing between the children
+    gtk_box_set_spacing(GTK_BOX(self), 10);
+
+    //set orentation of box to vertical
+    gtk_orientable_set_orientation(GTK_ORIENTABLE(self), GTK_ORIENTATION_VERTICAL);  // Set the box orientation
+
     //add the button to the the box
     gtk_box_append(GTK_BOX(self), GTK_BUTTON(launcher_button));
+    gtk_box_append(GTK_BOX(self), GTK_BUTTON(launcher_button2));
 }

@@ -22,7 +22,11 @@ static void launcher_button_init(LauncherButton* self)
 
     gtk_widget_set_halign(self, GTK_ALIGN_CENTER);
     gtk_widget_set_valign(self, GTK_ALIGN_CENTER);
-
+        //set margin of the button
+    gtk_widget_set_margin_start(GTK_WIDGET(self), 10);
+    gtk_widget_set_margin_end(GTK_WIDGET(self), 10);
+    gtk_widget_set_margin_top(GTK_WIDGET(self), 10);
+    gtk_widget_set_margin_bottom(GTK_WIDGET(self), 10);
     //set the height and width of the button
     gtk_widget_set_size_request(GTK_WIDGET(self), 200, 200);
     
