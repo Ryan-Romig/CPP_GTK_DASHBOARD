@@ -8,8 +8,11 @@ project created using gtk builder.
 build instructions :
 dependencies : 
     Meson
-    ninja
+    ninja-build
     gettext
+    libgtk-4-dev
+    desktop-file-utils
+
 
 from project root, run `meson setup build` - build being whatever name you want to use for your build dir
 
